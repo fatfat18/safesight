@@ -1,4 +1,25 @@
+<html>
+
+
+<head>
+<title>SafeSight</title>
+        <link rel="icon" href="/img/sslogo.png" type="image/x-icon">
+<style>
+            body {
+                font-family: century-gothic;
+                background-image:url("/img/backgg.jpg");
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+            .container {
+                height:82vh;
+            }
+        </style>
+        </head>
+<body>
+
 <x-guest-layout>
+
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
@@ -6,15 +27,18 @@
 
         <x-jet-validation-errors class="mb-4" />
 
+        
         @if (session('status'))
             <div class="mb-4 font-medium text-sm text-green-600">
                 {{ session('status') }}
+                
             </div>
         @endif
 
+
+
         <form method="POST" action="{{ route('login') }}">
             @csrf
-
             <div>
                 <x-jet-label for="email" value="{{ __('Email') }}" />
                 <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
@@ -46,3 +70,27 @@
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+

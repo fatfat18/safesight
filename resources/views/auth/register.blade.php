@@ -1,3 +1,26 @@
+<html>
+
+
+<head>
+<title>SafeSight</title>
+        <link rel="icon" href="/img/sslogo.png" type="image/x-icon">
+<style>
+            body {
+                font-family: century-gothic;
+                background-image:url("/img/backgg.jpg");
+                background-repeat:no-repeat;
+                background-size: 100% 100%;
+            }
+            .container {
+                height:82vh;
+            }
+        </style>
+        </head>
+<body>
+
+
+
+
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
@@ -58,3 +81,8 @@
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
+
+
+
+                </body>
+            <html>
