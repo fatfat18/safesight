@@ -14,6 +14,64 @@
             .container {
                 height:82vh;
             }
+
+            .test {
+                background: rgb(153,3,3);
+                background: linear-gradient(270deg, rgba(153,3,3,1) 0%, rgba(255,255,255,1) 50%);
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                text-align:center;
+                
+            }
+
+            .spacer {
+                background: rgb(153,3,3);
+                background: linear-gradient(90deg, rgba(153,3,3,1) 0%, rgba(255,255,255,1) 50%);
+                width:50%;
+                height: 90vh;
+                border-radius:40px;
+                margin: 0px 20px 0px 20px;
+                justify-content:center;
+                text-align:center;
+                align-items:center;
+                padding-top:10vh;
+                
+                
+            }
+
+            .test2 {
+                background-color:white;
+                width:30%;
+                height:50vh;
+                justify-content:center;
+                align-items:center;
+                text-align:center;
+                border-radius:50px;
+                padding-top:5vh;
+                border:ridge 10px;
+                
+                
+            }
+            .logincover {
+                width:80%;
+                height:60vh;
+                margin-left:5.5vw;
+                border-radius:30px;
+                border:solid 3px;
+
+                
+
+            }
+
+
+
+
+
+
+
         </style>
         </head>
 <body>
@@ -26,6 +84,22 @@
 
 
 <x-guest-layout>
+<div class="test">
+
+<div class="spacer">
+
+                <div style="padding-top:5vh; display:flex;">
+                <img src="/img/logincover.jpg" alt="TEAMBOIS" class="logincover"  >
+                </div>
+                <div style="width:25vw; margin-left:13vw; text-align:center; font-size:3vh; padding-top:.5vh; font-weight:bold; font-family:century">
+                TEAM BOIS
+                </div>
+                
+        
+        
+</div>
+
+<div class="test2">
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
@@ -58,6 +132,8 @@
             </div>
         </form>
     </x-jet-authentication-card>
+        </div>
+</div>
 </x-guest-layout>
 
 

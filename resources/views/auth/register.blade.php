@@ -14,6 +14,56 @@
             .container {
                 height:82vh;
             }
+
+           
+
+            .test {
+                background: rgb(153,3,3);
+                background: linear-gradient(270deg, rgba(153,3,3,1) 0%, rgba(255,255,255,1) 50%);
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                text-align:center;
+                
+            }
+
+            .spacer {
+                background: rgb(153,3,3);
+                background: linear-gradient(90deg, rgba(153,3,3,1) 0%, rgba(255,255,255,1) 50%);
+                width:50%;
+                height: 90vh;
+                border-radius:40px;
+                margin: 0px 20px 0px 20px;
+                justify-content:center;
+                text-align:center;
+                align-items:center;
+                padding-top:15vh;
+                
+                
+            }
+
+            .test2 {
+                background-color:white;
+                width:30%;
+                height:70vh;
+                justify-content:center;
+                align-items:center;
+                text-align:center;
+                border-radius:50px;
+                padding-top:7vh;
+                border:ridge 10px;
+                
+                
+            }
+
+
+
+
+
+
+
         </style>
         </head>
 <body>
@@ -21,7 +71,29 @@
 
 
 
+
+
+
 <x-guest-layout>
+
+<div class="test">
+
+        <div class="spacer">
+
+                <div style="; font-size:9vh; padding-top:11vh ;font-weight:900;">
+                 SafeSight
+                </div>
+                <div style="; width:25vw; margin-left:13vw; text-align:center; font-size:2.5vh;">
+                is an IoT-based home security notifier that sends direct report to the 
+                nearest authority on your area. It uses a camera that has facial 
+                recognition feature that will scanned faces whenever who is in the 
+                place and recognizes if it is an intruder or not. 
+                </div>
+                
+                
+        </div>
+
+ <div class="test2">
     <x-jet-authentication-card>
         <x-slot name="logo">
             <x-jet-authentication-card-logo />
@@ -80,6 +152,8 @@
             </div>
         </form>
     </x-jet-authentication-card>
+</div>
+</div>
 </x-guest-layout>
 
 

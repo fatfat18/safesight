@@ -107,6 +107,8 @@
 				background-color:red;
 				border-radius:50px;
 				padding: 15px 40px 15px 40px;
+				border:solid 2px;
+				
 					
 	
             }
@@ -116,6 +118,8 @@
 				background-color:red;
 				border-radius:50px;
 				padding: 15px 25px 15px 25px;	
+				border:solid 2px;
+				
             }
 			.header :hover {
 				
@@ -127,11 +131,19 @@
 				padding-bottom:12px;
 				
 				
+				
+				
+				
 			}
 			.secondheader :hover{
 				background-color:white;
 				color:red;
-				transition-duration:.5s;
+				transition: all .5s ease;
+				font-size:1.5vh;
+				
+				
+				
+				
 					
 			}
 
@@ -143,6 +155,7 @@
 				background-color:black;
 				padding-top:12px;
 				padding-bottom:12px;
+		
 			}
 			.footer{
 				padding-top:2vh;
@@ -171,10 +184,10 @@
                     @else
 					<a class="classspace"> </a>
 					<div class="secondheader">
-					<a href="{{ route('login') }}"  class="ml-4 headerfontlogin"> LOGIN</a>
-			
+					<a href="{{ route('login') }}"  class=" headerfontlogin"> LOGIN</a>
+
                         @if (Route::has('register'))
-					 <a href="{{ route('register') }}" class="ml-4  headerfontreg ">REGISTER</a>
+					 <a href="{{ route('register') }}" class=" headerfontreg ">REGISTER</a>
 					</div>
                         @endif
                     @endauth
