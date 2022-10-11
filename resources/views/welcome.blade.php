@@ -105,31 +105,31 @@
                 font-size:12px;
                 color:white;
 				background-color:red;
-				border-radius:50px;
+				border-radius:20px;
 				padding: 15px 40px 15px 40px;
 				border:solid 2px;
 				
-					
-	
             }
+
+
+			
+        
 			.headerfontreg{
                 font-size:12px;
                 color:white;
 				background-color:red;
-				border-radius:50px;
+				border-radius:20px;
 				padding: 15px 25px 15px 25px;	
 				border:solid 2px;
 				
             }
-			.header :hover {
-				
-				
-			}
+			
+		
+
 			.secondheader {
 				background-color:black;
 				padding-top:12px;
 				padding-bottom:12px;
-				
 				
 				
 				
@@ -139,16 +139,12 @@
 				background-color:white;
 				color:red;
 				transition: all .5s ease;
-				font-size:1.5vh;
-				
-				
-				
 				
 					
 			}
 
 			.classspace{
-			padding-left:84%;
+			padding-left:80%;
 			
 			}
 			.header{
@@ -184,10 +180,11 @@
                     @else
 					<a class="classspace"> </a>
 					<div class="secondheader">
-					<a href="{{ route('login') }}"  class=" headerfontlogin"> LOGIN</a>
+					<a href="{{ route('login') }}"  class="headerfontlogin"> LOGIN</a>
 
                         @if (Route::has('register'))
 					 <a href="{{ route('register') }}" class=" headerfontreg ">REGISTER</a>
+					 <a href="aboutus" class=" headerfontreg ">ABOUT US</a>
 					</div>
                         @endif
                     @endauth

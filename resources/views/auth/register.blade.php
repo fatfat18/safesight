@@ -86,7 +86,7 @@
                 <div style="; width:25vw; margin-left:13vw; text-align:center; font-size:2.5vh;">
                 is an IoT-based home security notifier that sends direct report to the 
                 nearest authority on your area. It uses a camera that has facial 
-                recognition feature that will scanned faces whenever who is in the 
+                recognition feature that will scan faces whenever who is in the 
                 place and recognizes if it is an intruder or not. 
                 </div>
                 
