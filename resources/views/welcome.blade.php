@@ -154,13 +154,13 @@
 		
 			}
 			.footer{
-				padding-top:2vh;
+				padding-top:4vh;
 				font-size:1.3vh;
 				justify-content:center;
 				text-align:center;
 				background:black;
 				color:white;
-				height:6.9vh;
+				height:10vh;
 			}
 
 
